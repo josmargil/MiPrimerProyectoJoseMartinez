@@ -50,7 +50,14 @@ class MainActivity : ComponentActivity() {
                 Toast.makeText(this, "Flutter ha sido desmarcado", Toast.LENGTH_SHORT).show()
             }
         }
-        
 
+        // Funcionalidad 3
+        binding.btnGuardar2.setOnClickListener {
+            if (binding.pbProgreso.progress < 100) {
+                binding.pbProgreso.progress += 10
+            } else {
+                binding.pbProgreso.progress = 0
+            }
+        }
     }
 }
