@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/svPrincipal"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/llContenido"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp">
 
         <TextView
+            android:id="@+id/tvTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_ejemplocomponentesandroid"
@@ -18,6 +21,7 @@
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvMostrarInfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_mostrarinfo"
@@ -26,6 +30,7 @@
             android:layout_marginBottom="12dp"/>
 
         <TextView
+            android:id="@+id/tvTexto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_textotextview"
@@ -33,6 +38,7 @@
             android:layout_marginBottom="16dp"/>
 
         <ImageView
+            android:id="@+id/ivLogoAndroid"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/logo_android"
@@ -41,13 +47,14 @@
             android:layout_marginBottom="16dp"/>
 
         <TextView
+            android:id="@+id/tvProgreso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_progreso"
             android:textSize="14sp"/>
 
-
         <ProgressBar
+            android:id="@+id/pbProgreso"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="match_parent"
             android:layout_height="24dp"
@@ -56,6 +63,7 @@
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvVideoView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_videoview"
@@ -64,12 +72,14 @@
             android:layout_marginBottom="10dp"/>
 
         <VideoView
+            android:id="@+id/vvVideo"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:background="#000000"
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvWebView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_webview"
@@ -78,11 +88,13 @@
             android:layout_marginBottom="8dp"/>
 
         <WebView
+            android:id="@+id/wvPagina"
             android:layout_width="match_parent"
             android:layout_height="120dp"
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvEntradaInteraccion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_compentradaeinteraccion"
@@ -91,6 +103,7 @@
             android:layout_marginBottom="16dp"/>
 
         <EditText
+            android:id="@+id/etNombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
@@ -99,6 +112,7 @@
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvSeleccionTecnologia"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_seleccionatecnologia"
@@ -107,22 +121,26 @@
             android:layout_marginBottom="8dp"/>
 
         <CheckBox
+            android:id="@+id/cbAndroid"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cb_android"/>
 
         <CheckBox
+            android:id="@+id/cbReact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cb_react"/>
 
         <CheckBox
+            android:id="@+id/cbFlutter"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/cb_flutter"
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvSeleccionModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_seleccionamodalidad"
@@ -131,23 +149,27 @@
             android:layout_marginBottom="8dp"/>
 
         <RadioGroup
+            android:id="@+id/rgModalidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginBottom="16dp">
 
             <RadioButton
+                android:id="@+id/rbPresencial"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rb_presencial"
                 android:checked="true"/>
 
             <RadioButton
+                android:id="@+id/rbOnline"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rb_online"/>
 
             <RadioButton
+                android:id="@+id/rbMixta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/rb_mixta"
@@ -156,12 +178,14 @@
         </RadioGroup>
 
         <Switch
+            android:id="@+id/swNotificaciones"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sw_notificaciones"
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvSeleccionCurso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tv_seleccionacurso"
@@ -169,12 +193,14 @@
             android:textStyle="bold"/>
 
         <Spinner
+            android:id="@+id/spCursos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:entries="@array/cursos"
             android:layout_marginBottom="16dp"/>
 
         <SeekBar
+            android:id="@+id/sbProgreso"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:max="100"
@@ -182,6 +208,7 @@
             android:layout_marginBottom="24dp"/>
 
         <Button
+            android:id="@+id/btnGuardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple_200"
@@ -191,6 +218,7 @@
             android:layout_marginBottom="24dp"/>
 
         <Button
+            android:id="@+id/btnGuardar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/purple_200"
@@ -200,11 +228,12 @@
             android:layout_marginBottom="24dp"/>
 
         <TextView
+            android:id="@+id/tvResultado"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="24dp"
             android:text="@string/tv_resultado"
-            android:textSize="14sp" />
+            android:textSize="14sp"/>
 
     </LinearLayout>
 
