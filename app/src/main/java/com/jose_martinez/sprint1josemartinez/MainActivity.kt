@@ -13,5 +13,18 @@ class MainActivity : ComponentActivity() {
 
         binding = Reto1Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // Funcionalidad 1
+        binding.btnGuardar.setOnClickListener {
+            val name = binding.etNombre.text.toString()
+
+            if (name.isNotEmpty()) {
+                binding.tvResultado.text = "Hola $name"
+            } else {
+                binding.tvResultado.text = "Introduce tu nombre"
+            }
+        }
+
+        
     }
 }
