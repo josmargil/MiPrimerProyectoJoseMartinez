@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">sprint1[JoseMartinez]</string>
+    <string name="btn_guardarinformacion">Guardar información</string>
+    <string name="cb_android">Android</string>
+    <string name="cb_flutter">Flutter</string>
+    <string name="cb_react">React</string>
+    <string name="et_introducenombre">Introduce tu nombre</string>
+    <string name="iv_logoandroid">Logo Android</string>
+    <string name="rb_mixta">Mixta</string>
+    <string name="rb_online">Online</string>
+    <string name="rb_presencial">Presencial</string>
+    <string name="sw_notificaciones">Notificaciones</string>
+    <string name="tv_resultado">Aquí aparecerá el resultado...</string>
+    <string name="tv_mostrarinfo">Componente para mostrar información</string>
+    <string name="tv_compentradaeinteraccion">Componentes de entrada e interacción</string>
+    <string name="tv_ejemplocomponentesandroid">Ejemplo de componentes Android</string>
+    <string name="tv_textotextview">Este texto se muestra mediante un TextView</string>
+    <string name="tv_progreso">Progreso: 50%</string>
+    <string name="tv_seleccionatecnologia">Selecciona tecnologías:</string>
+    <string name="tv_seleccionacurso">Selecciona un curso:</string>
+    <string name="tv_seleccionamodalidad">Selecciona una modalidad:</string>
+    <string name="tv_videoview">VideoView</string>
+    <string name="tv_webview">WebView</string>
+    <string-array name="cursos">
+        <item>1.º DAM</item>
+        <item>2.º DAM</item>
+        <item>1.º DAW</item>
+        <item>2.º DAW</item>
+        <item>1.º ASIR</item>
+        <item>2.º ASIR</item>
+    </string-array>
+</resources>

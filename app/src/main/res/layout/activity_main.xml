@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Aquí" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Escribe aquí un nombre..." />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="60"
+        android:progressTint="#FA0000" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirma la polìtica de privacidad" />
+
+    <Button
+        android:layout_width="88dp"
+        android:layout_height="82dp"
+        android:background="@drawable/boton_redondeado"
+        android:text="SHARINGAN"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+
+    <com.jose_martinez.sprint1josemartinez.MyCard
+        android:id="@+id/myCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        
+
+</LinearLayout>
